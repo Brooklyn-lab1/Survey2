@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "email": "",
+      "step_1": "",
+      "step_2": "",
+      "step_3": "",
+      "step_4": "",
+      "step_5": "",
+      "step_6": "",
+      "step_7": "",
+      "id": 1
+    },
+    {
+      "email": "",
+      "step_1": "",
+      "step_2": "",
+      "step_3": "",
+      "step_4": "",
+      "step_5": "",
+      "step_6": "",
+      "step_7": "",
+      "id": 2
+    },
+    {
+      "email": "",
+      "step_1": "",
+      "step_2": "",
+      "step_3": "",
+      "step_4": "",
+      "step_5": "",
+      "step_6": "",
+      "step_7": "",
+      "id": 3
+    },
+    {
+      "email": "123@mail.com",
+      "step_1": "Once in 2-3 months",
+      "step_2": "Clothing and accessories",
+      "step_3": "Other (please specify) ",
+      "step_4": "Other (please specify) ",
+      "step_5": "Other (please specify) ",
+      "step_6": "Visa Checkout",
+      "step_7": "",
+      "id": 4
+    },
+    {
+      "email": "dads@mail.com",
+      "step_1": "",
+      "step_2": "",
+      "step_3": "",
+      "step_4": "",
+      "step_5": "",
+      "step_6": "",
+      "step_7": "",
+      "id": 5
+    }
+  ]
+}

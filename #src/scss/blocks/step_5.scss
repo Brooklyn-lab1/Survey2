@@ -1,0 +1,108 @@
+.step5{
+    background: url("../img/Electronics.jpg") no-repeat center/cover;
+    height: 740px;
+    margin-top: 118px;
+    @media screen and (max-width: 1000px){
+        margin-top: 50px;
+    }
+}
+.survey-form5{
+    position: absolute;
+    background: $white;
+    margin-left: auto;
+    right: 103px;
+    top: -148px;
+    // height: 550px; 
+    height: fit-content;
+    max-width: 528px;
+    width: 100%;
+    padding: 30px 20px 38px 20px;
+
+    
+    @media screen and (max-width: 1000px){
+        right: 50%;
+        top: 66%;
+        transform: translate(50%, -50%);
+    }
+
+    &__textarea{
+        border: 1px solid #222;
+        max-width: 488px;
+        width: 100%;
+        min-height: 200px;
+        border-radius: 15px;
+        padding: 15px 10px;
+        margin-top: 32px;
+    }
+    
+    &__textarea{
+        &.hide{
+            display: none;
+        }
+
+    }
+
+    &__button5{
+        cursor: pointer;
+        max-width: 488px;
+        width: 100%;
+        height: 60px;
+        margin-top: 47px;
+        background: $pink;
+        padding: 17px;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__label-other{
+        display: flex;
+        flex-direction: column;  
+        position: relative; 
+        cursor: pointer;
+        justify-content: center;
+        
+        input[type='radio'] {
+            appearance: none;
+        } 
+        span{
+            margin-left: 66px;
+            font-size: 16px;
+            line-height: 22px;
+            margin-top: 40px;
+            &::before{
+                position: absolute;
+                content: '';
+                width: 30px;
+                height: 30px;
+                border: 1px solid #000;
+                border-radius: 50%;
+                left: 20px;
+            }
+        }
+        input[type='radio']:checked + span::before{
+            background: $pink;
+        }
+    }
+
+    &__label-other::before{
+        position: absolute;
+        content: '';
+        max-width: 488px;
+        width: 100%;
+        height: 2px;
+        background: #22222233;
+        bottom: -20px;
+    }
+}
+.survey-text{
+    @media screen and (max-width: 1000px){
+        margin-top: -70px;
+        text-align: center;
+    }
+}
